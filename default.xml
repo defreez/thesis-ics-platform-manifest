@@ -3,6 +3,8 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
+  <remote  name="github"
+           fetch="ssh://git@github.com" />
   <default revision="refs/tags/android-4.0.3_r1"
            remote="aosp"
            sync-j="4" />
@@ -236,6 +238,6 @@
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
-  <project path="system/vold" name="platform/system/vold" />
+  <project path="system/vold" name="platform/system/vold" remote="github" revision="master" />
 
 </manifest>
