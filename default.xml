@@ -241,7 +241,7 @@
   <project path="system/vold" name="thesis-ics-platform-system-vold" remote="github" revision="master" />
   <project path="system/core" name="thesis-ics-platform-system-core" remote="github" revision="master" />
   <project path="device/samsung/crespo" name="thesis-ics-device-samsung-crespo" remote="github" revision="master" />
-  <project path="external/keyutils" name="thesis-ics-external-keyutils" remote="github" revision="master" />
+  <project path="external/libkeyutils" name="thesis-ics-external-libkeyutils" remote="github" revision="master" />
   <project path="vendor" name="thesis-ics-vendor" remote="github" revision="master" />
   <project path="kernel" name="thesis-ics-kernel" remote="github" revision="master" />
 
