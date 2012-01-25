@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
   <remote  name="github"
-           fetch="ssh://git@github.com" />
+           fetch="ssh://git@github.com/defreez" />
   <default revision="refs/tags/android-4.0.3_r1"
            remote="aosp"
            sync-j="4" />
