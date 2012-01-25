@@ -238,12 +238,12 @@
   <project path="system/netd" name="platform/system/netd" />
 
   <!-- Customized -->
-  <project path="thesis-ics-system-vold" name="platform/system/vold" remote="github" revision="master" />
-  <project path="thesis-ics-system-core" name="platform/system/core" remote="github" revision="master" />
-  <project path="thesis-ics-device-samsung-crespo" name="device/samsung/crespo" remote="github" revision="master" />
-  <project path="thesis-ics-keyutils" name="external/keyutils" remote="github" revision="master" />
-  <project path="thesis-ics-vendor" name="vendor" remote="github" revision="master" />
-  <project path="thesis-ics-kernel" name="kernel" remote="github" revision="master" />
+  <project path="system/vold" name="thesis-ics-platform-system-vold" remote="github" revision="master" />
+  <project path="system/core" name="thesis-ics-platform-system-core" remote="github" revision="master" />
+  <project path="device/samsung/crespo" name="thesis-ics-device-samsung-crespo" remote="github" revision="master" />
+  <project path="external/keyutils" name="thesis-ics-external-keyutils" remote="github" revision="master" />
+  <project path="vendor" name="thesis-ics-vendor" remote="github" revision="master" />
+  <project path="kernel" name="thesis-ics-kernel" remote="github" revision="master" />
 
 
 </manifest>
