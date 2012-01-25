@@ -28,7 +28,6 @@
   <project path="device/moto/stingray" name="device/moto/stingray" />
   <project path="device/moto/wingray" name="device/moto/wingray" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/crespo" name="device/samsung/crespo" />
   <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" />
   <project path="device/samsung/toro" name="device/samsung/toro" />
@@ -234,10 +233,17 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
-  <project path="system/vold" name="platform/system/vold" remote="github" revision="master" />
+
+  <!-- Customized -->
+  <project path="thesis-ics-system-vold" name="platform/system/vold" remote="github" revision="master" />
+  <project path="thesis-ics-system-core" name="platform/system/core" remote="github" revision="master" />
+  <project path="thesis-ics-device-samsung-crespo" name="device/samsung/crespo" remote="github" revision="master" />
+  <project path="thesis-ics-keyutils" name="external/keyutils" remote="github" revision="master" />
+  <project path="thesis-ics-vendor" name="vendor" remote="github" revision="master" />
+  <project path="thesis-ics-kernel" name="kernel" remote="github" revision="master" />
+
 
 </manifest>
