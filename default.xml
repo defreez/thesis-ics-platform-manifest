@@ -245,8 +245,5 @@
   <project path="vendor" name="thesis-ics-vendor" remote="github" revision="master" />
   <project path="kernel" name="thesis-ics-kernel" remote="github" revision="master" />
 
-  <!-- forked from CM with no changes -->
-  <project path="external/busybox" name="thesis-ics-external-busybox" remote="github" revision="ics" />
-
 
 </manifest>
