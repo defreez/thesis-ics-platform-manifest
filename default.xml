@@ -244,5 +244,6 @@
   <project path="vendor" name="thesis-ics-vendor" remote="github" revision="master" />
   <project path="kernel" name="thesis-ics-kernel" remote="github" revision="master" />
   <project path="frameworks/base" name="thesis-ics-platform-frameworks-base" revision="master" />
+  <project path="external/libecryptfs" name="thesis-ics-external-ecryptfs" revision="master" />
 
 </manifest>
